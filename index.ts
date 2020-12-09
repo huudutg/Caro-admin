@@ -24,5 +24,5 @@ routesMDW(app);
 
 app.get("/", (req, res) => res.send("Typescript"));
 app.listen(PORT, () => {
-  console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${PORT}`);
 });
